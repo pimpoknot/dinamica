@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Flexo";
+    src: url('/public/utils/fonts/FLEXO-BOLD.OTF');
+    src: url('/public/utils/fonts/FLEXO-MEDIUM.OTF');
+    src: url('/public/utils/fonts/FLEXO-REGULAR.OTF');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Flexo" , 'sans-serif';
+}

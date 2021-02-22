@@ -1,0 +1,55 @@
+// Colors
+$color-primary: #FDB913;
+$color-secondary: #F37021;
+$color-tertiary: #FDB913;
+$color-quartenary: #f37021;
+$color-text-one: #F89100;
+
+$dark-primary: #000;
+$dark-secondary: #292727;
+$dark-tertiary: #434343;
+
+$grey-primary: #717171;
+$grey-secondary: #747474;
+$grey-tertiary: #7A7A7A;
+$grey-quaternary: #8E8E8E;
+
+$grey-quintenary: #545454;
+$grey-sixtieth: #a6a6a6;
+
+$light-primary: #FFF;
+$light-secondary: #F3F3F3;
+$light-tertiary: #F6F6F6;
+$light-quaternary: #E6E6E6;
+$light-quintenary: #DCDCDC;
+$light-sextenary: #CECECE;
+$light-septenary: #FEFEFE;
+
+// MARGIN TOP
+.mt8{margin-top: 8px;}
+.mt16{margin-top: 16px;}
+
+// MARGIN LEFT
+.m-left8{margin-left: 8px;}
+.m-left16{margin-left: 16px;}
+
+// DISPLAY FLEX
+.d-flex{display: flex;}
+.d-flex-wrap{flex-wrap: wrap;}
+.d-flex-justify-content-center{justify-content: center;}
+
+.fw-100{font-weight: lighter;}
+.fw-bold{font-weight: bolder;}
+.fw-regular{font-weight: normal;}
+.uppercase{text-transform: uppercase;}
+.text-decoration-n{text-decoration: none;}
+.z-index{ z-index: 9999;}
+
+.color-b{color:black;}
+.color-w{color: white;}
+
+// FONT SIZE
+.fs-8{font-size: 8px;}
+.fs-16{font-size: 16px;}
+.fs-32{font-size: 32px;}
+.fs-64{font-size: 64px;}

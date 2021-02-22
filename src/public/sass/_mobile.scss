@@ -1,0 +1,457 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/img/5f8602184fa7a-fly-fachada-01-alta-resolucao-r01-bx (1).svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+    img{
+      margin: 16px;
+      width: 150px;
+      height: 49px;
+    }
+}
+
+
+.header::before{
+  content: '';
+  background-color: black;
+  opacity: 0.5;
+}
+
+.contact-menu{
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(#f37021,#f0a00dda );
+  border-radius: 30px 0 0 0;
+
+  .email-contact{
+    width: 100%;
+  }
+
+  .phone-contact{
+    width: 100%;
+  }
+
+  .whatsapp-contact{
+    width: 100%;
+  }
+
+  .about-contact{
+    width: 100%;
+  }
+
+  i:nth-child(1){
+    border: none;
+  }
+
+  p{
+    display: none;
+  }
+
+  i{
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-left: solid 2px white;
+  }
+  
+}
+
+.immobile-home{
+  z-index: 999;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .logo-immobile img{
+    width: 128px;
+    height: 46px;
+  }
+
+  p, h3{
+    color: white;
+  }
+
+  .lancamento-container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 10px 0 0 0  ;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+}
+
+.fas fa-map-marker-alt{
+  color: white;
+}
+
+
+
+// Higligths
+
+.immobile-highlights{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 22px;
+  h2{
+    font-weight: 600;
+    color: #707070;
+  }
+
+  span{
+   color: #F89100;
+  }
+}
+
+.mobilles-status{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 185px;
+  height: 50px;
+  background-color: black;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+
+
+.about-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  background-image: linear-gradient( #ebad10,#f37021);
+  border-radius: 5px;
+
+  a{
+    color: white;
+    font-weight: 100;
+  }
+}
+
+.container-clone{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: .5);
+}
+
+.about-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px auto;
+  padding: 16px;
+
+  img{
+    max-width: 250px;
+  }
+
+  p{
+    margin: 16px 24px;
+    text-align: center;
+    line-height: 27px;
+    font-family: sans-serif;
+  }
+}
+
+.count-card{
+  width: 100%;
+  height:479px ;
+  background-color: #2B2B2B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 36px 0 0 0;
+  
+  .text-content-count{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+
+  .delivered-count{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    max-width: 264px;
+
+
+    span{
+      margin-left: 8px;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    p{
+      margin-left: 8px;
+      font-weight: lighter;
+      font-size: 22px;
+      
+    }
+  }
+
+  .apart-delivered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    max-width: 264px;
+
+
+
+    span{
+      margin-left: 8px;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    p{
+      margin-left: 8px;
+      font-weight: lighter;
+      font-size: 22px;
+      
+    }
+  }
+
+  .client-delivered{
+    margin-top: 16px;
+    max-width: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    img{
+      width: 65px;
+    }
+
+    span{
+      margin-left: 8px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    p{
+      margin-left: 8px;
+      font-weight: lighter;
+      font-size: 18px;
+      
+    }
+  }
+
+  .count-card-content{
+    margin: 0 auto;
+  }
+}
+
+.immobile-radio-list{
+  position: relative;
+  z-index: 10;
+  z-index: 3;
+  height: 365px;
+  width: 100%;
+  border-radius: 5px 0 0 0;
+  margin-top: -35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p{
+    z-index: 10;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    
+  }
+
+  span{
+    z-index: 10;
+    color: #f37021;
+    font-weight: bolder;
+    margin-left: 5px;
+    font-size: 23px;
+  }
+  .text-content-radio-list{
+    z-index: 10;
+    display: flex;
+    margin-top: 130px;
+    p{
+      margin: 0;
+      font-size: 23px;
+    }
+  }
+
+  p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    margin: 20px;
+    font-size: 13px;
+  }
+
+  form{
+    z-index: 10;
+    color: #000000;
+    
+
+    select{
+      border-radius: 20px;
+      height: 51px;
+      width: 220px;
+    }
+
+    input{
+      height: 51px;
+      width: 100px;
+      border-radius: 20px;
+      margin-left: -35px;
+      background-image: linear-gradient( #ebad10,#f37021); 
+    }
+  }
+}
+
+.immobile-radio-list{
+  background-image: url('/public/img/fly-churrasqueira.png');
+  background-repeat: no-repeat;
+}
+
+.text-content-radio-list-clone{
+    border-radius: 29px 0 0 0;
+    position: absolute;
+    // z-index: 1;
+    width: 100%;
+    height: 365px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.technical-assistance{
+  width: 100%;
+  height: 325px;
+  border-radius: 36px 0 0 0;
+  z-index: 9999;
+  margin-top: -32px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  p{
+    color: #000000;
+    margin-top: 32px;
+    font-size: 18px;
+  }
+
+  .button-portal{
+    text-align: center;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: linear-gradient( #ebad10,#f37021); 
+    width: 150px;
+    height: 31px;
+
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  .technical-title{
+    z-index: 9999;
+    display: flex;
+    font-size: 22px;
+    
+
+    p{
+      color: #707070;
+      font-size: 22px;
+      margin: 0;
+    }
+
+    span{
+      color: #F89100;
+      font-size: 22px;
+    }
+  }
+}
+
+.quality-container{
+  height: 386px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 0 0 0;
+
+  .text-quality-title{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+      font-size: 20px;
+      margin: 0 5px 0 0;
+      font-weight: bolder;
+    }
+    span{
+      color: #f37021;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+
+  img{
+    margin-top: 32px;
+  }
+  // TEXTO
+  p{
+    margin-top: 32px;
+    font-size: 13px;
+    text-align: center;
+    max-width: 230px;
+  }
+}

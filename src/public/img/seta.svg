@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="19" viewBox="0 0 19 19">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.25" y1="0.5" x2="1.25" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f96005"/>
+      <stop offset="1" stop-color="#ffa36d"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect width="11" height="11" fill="none"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 17 16">
+      <image width="17" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAYAAADwMZRfAAAABHNCSVQICAgIfAhkiAAAAM9JREFUOE+t1LFOAkEQANB3FJj4K/R8AIWGYIEJdJhY4AfQ0lvS29lDooUdFNTa8CcaGwoScmaT22Ql5Dg9ttu9mZfczOxmeZ4rWR284gVj7I/FZiXIBT5xWSQuMMLuECpDQuwz7pOkNwwOoVNIhhkmCbRCH9t4dgqJcVM8JtAaNxGqioT8BzyhUWAfuMJ3QIZolbUo+dZFO9kHqBeQ0LaoV7R+hW3OhtT9nW6dwr7jOha2Sh1qtfjYsC1x+5dhqz32TXwlF3COu/9cwEpPwQ+Ds1uj4POm8QAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="Group_11" data-name="Group 11" transform="translate(-319 -3620)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="9.5" cy="9.5" r="9.5" transform="translate(319 3620)" fill="url(#linear-gradient)"/>
+    <g id="Repeat_Grid_23" data-name="Repeat Grid 23" transform="translate(323 3624)" clip-path="url(#clip-path)">
+      <g transform="translate(-323 -3624)">
+        <rect id="arrow-right-solid_1_" data-name="arrow-right-solid (1)" width="11" height="11" transform="translate(323 3624)" fill="url(#pattern)"/>
+      </g>
+    </g>
+  </g>
+</svg>

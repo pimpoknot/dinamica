@@ -1,0 +1,114 @@
+.image-immobile{
+    max-height: 350px;
+    max-width: 260px;
+    img{
+        width: 100%;
+        
+    }
+    
+
+    .about-more{
+        position: relative;
+        left: 52px;
+        width: 161px;
+        height: 40px;
+        color: white;
+        bottom: 83px;
+        font-size: 16px;
+    }
+}
+
+
+.carrousel-highlights{
+    margin-top: 16px;
+   
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 0 0 0;
+}
+
+.card-text-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E8E8E8;
+    border-radius: 0 0 50px 0;
+    position:relative;
+
+    h3{
+        margin: 16px;
+        color: black;
+        font-weight: bold;
+    }
+    p:nth-child(2){
+        color: black;
+        font-size: 16px;
+        font-weight: lighter;
+        margin: 8px 0 0 0;
+    }
+
+    p:nth-child(5){
+        margin: 0 0 16px 0;
+    }
+    .lancamento-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        width: 160px;
+        height: 50px;
+        background-color: white;
+        font-size: 16px;
+        border-radius: 15px 0 0 0;
+
+        p{
+            font-weight: lighter;
+            color: black;
+        }
+        
+
+        
+    }
+}
+
+.immobiles-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 50px 0;
+    height: 200px;
+    background-image: linear-gradient(#FDB913, #F37021);
+    margin-top:-35px;
+    
+
+    .box-details{
+        display: flex;
+        
+        flex-wrap: wrap;
+        max-width: 210px;
+        color: white;
+
+        p{
+            color: white;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .garage-details{
+            justify-content: center;
+            align-items: center;
+            img{
+                margin-left: 10px;
+            }
+
+            p{
+                margin-left: 6px;
+            }
+        }
+    }
+}
