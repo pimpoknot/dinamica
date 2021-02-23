@@ -86,8 +86,10 @@
                   <p>Estar perto para chegar mais longe</p>
                 </div>
                 <div class="mt8 lancamento-container"><p>LANÇAMENTO</p></div>
-                <p class="mt8 fw-100 color-b">Bauru - São Paulo</p>
-                <p class="fw-100 fs-16 color-b"><i class=" mt8 fas fa-map-marker-alt"></i>Jardim Infante Dom Henrique</p>
+                <div class="immobile-address">
+                  <p class="mt8 fw-100 color-b">Bauru - São Paulo</p>
+                  <p class="fw-100 fs-16 color-b"><i class=" mt8 fas fa-map-marker-alt"></i>Jardim Infante Dom Henrique</p>
+                </div>
               </div>
               <div class="immobiles-details">
                 <div class="box-details">
