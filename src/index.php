@@ -286,6 +286,26 @@
           </div>
         </section>
 
+        <!-- DESKTOP - PRÉ FOOTER -->
+
+        <div class="pre-footer">
+            <div class="quality-preFotter">
+              <img src="/public/img/11.png" alt="logo-quality">
+              <div class="text-quality-title">
+                <div class="text-title-pre-footer-quality">
+                  <h2>Gestão de</h2> <span>Qualidade</span>
+                </div>
+                <p>Em 2017, o sistema de qualidade da Construtora Dinâmica passou a possuir a aprovação no Programa Brasileiro de Qualidade e Produtividade do Habitat (PBQP-H) nível A, do Governo Federal.</p>
+              </div>
+            </div>
+          <div class="pre-footer-social-media">
+            <div class="title-social-pre-footer">
+              <h2>Redes</h2><span>Sociais</span>
+            </div>
+          </div>
+
+        </div>
+
         <!-- FOOTER -->
 
       <footer>
