@@ -1,0 +1,54 @@
+@media(min-width: 670px){
+
+  .information-content{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    
+    box-sizing: border-box;
+
+    .about-card{
+      order: 2;
+      width: 50%;
+      height: 462px;
+      box-sizing: border-box;
+    }
+
+    .count-card{
+      order: 1;
+      width: 50%;
+      height: 462px;
+      box-sizing: border-box;
+    }
+
+    .immobile-radio-list{
+      order: 4;
+      width: 50%;
+      height: 462px;
+      box-sizing: border-box;
+      background-image: url('/public/img/acompanhe-obra-large.png');
+
+      .text-content-radio-list-clone{
+        height: 462px;
+        border-radius: 38px 0 0 0;
+      }
+    }
+
+    .technical-assistance{
+      order: 3;
+      width: 50%;
+      height: 462px;
+      box-sizing: border-box;
+    }
+
+    
+  }
+
+  .quality-container{
+    display: none;
+  }
+
+}

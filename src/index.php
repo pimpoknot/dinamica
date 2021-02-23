@@ -108,10 +108,85 @@
                 </div>
               </div>
             </div>
+            <!-- <div class="carrousel-cards">
+              <div class="image-immobile">
+                <picture>
+                  <source media="(max-width:670px)" srcset="/public/img/5f8607c66bda2-fly-piscina-alta-resolucao-r01-bx.png" sizes="small">
+                  <source media="(min-width: 670px )" srcset="/public/img/residente-desktop.png" sizes="">
+                  <img src="/public/img/residente-desktop.png" alt="residence" style="width: auto;">
+                </picture>
+                <div class="about-more"><a href="#" class="text-decoration-n uppercase">saiba mais</a></div>
+              </div>
+              <div class="card-text-content">
+                <div class="immobile-apresentation">
+                  <h3 class="uppercase fs-16">Fly Reidence</h3>
+                  <p>Estar perto para chegar mais longe</p>
+                </div>
+                <div class="mt8 lancamento-container"><p>LANÇAMENTO</p></div>
+                <div class="immobile-address">
+                  <p class="mt8 fw-100 color-b">Bauru - São Paulo</p>
+                  <p class="fw-100 fs-16 color-b"><i class=" mt8 fas fa-map-marker-alt"></i>Jardim Infante Dom Henrique</p>
+                </div>
+              </div>
+              <div class="immobiles-details">
+                <div class="box-details">
+                  <div class="suites-details d-flex">
+                    <img src="/public/img/bed (4)@2x.png" alt="bed=image">
+                    <p class="m-left16">1 e 2 dormitórios com Suítes</p>
+                  </div>
+                  <div class="space-details d-flex mt16">
+                    <img src="/public/img/regua@2x.png" alt="regua-image">
+                    <p class="m-left16">35 a 86,5m²</p>
+                  </div>
+                  <div class="garage-details d-flex mt8">
+                    <img src="/public/img/vaga@2x.png" alt="vaga-image">
+                    <p>1 Vaga</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carrousel-cards">
+              <div class="image-immobile">
+                <picture>
+                  <source media="(max-width:670px)" srcset="/public/img/5f8607c66bda2-fly-piscina-alta-resolucao-r01-bx.png" sizes="small">
+                  <source media="(min-width: 670px )" srcset="/public/img/residente-desktop.png" sizes="">
+                  <img src="/public/img/residente-desktop.png" alt="residence" style="width: auto;">
+                </picture>
+                <div class="about-more"><a href="#" class="text-decoration-n uppercase">saiba mais</a></div>
+              </div>
+              <div class="card-text-content">
+                <div class="immobile-apresentation">
+                  <h3 class="uppercase fs-16">Fly Reidence</h3>
+                  <p>Estar perto para chegar mais longe</p>
+                </div>
+                <div class="mt8 lancamento-container"><p>LANÇAMENTO</p></div>
+                <div class="immobile-address">
+                  <p class="mt8 fw-100 color-b">Bauru - São Paulo</p>
+                  <p class="fw-100 fs-16 color-b"><i class=" mt8 fas fa-map-marker-alt"></i>Jardim Infante Dom Henrique</p>
+                </div>
+              </div>
+              <div class="immobiles-details">
+                <div class="box-details">
+                  <div class="suites-details d-flex">
+                    <img src="/public/img/bed (4)@2x.png" alt="bed=image">
+                    <p class="m-left16">1 e 2 dormitórios com Suítes</p>
+                  </div>
+                  <div class="space-details d-flex mt16">
+                    <img src="/public/img/regua@2x.png" alt="regua-image">
+                    <p class="m-left16">35 a 86,5m²</p>
+                  </div>
+                  <div class="garage-details d-flex mt8">
+                    <img src="/public/img/vaga@2x.png" alt="vaga-image">
+                    <p>1 Vaga</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
 
-        <!-- ABOUT CARD -->
+        <div class="information-content">
+                  <!-- ABOUT CARD -->
         <div class="about-card">
           <img src="./public/img/LOGO_dinamica.png" alt="logo">
           <p>
@@ -169,6 +244,7 @@
           <div class="button-portal">
             <a href="#">Acessar o Portal</a>
           </div>
+        </div>
         </div>
 
         <!-- GESTÃO DE QUALIDADE -->
