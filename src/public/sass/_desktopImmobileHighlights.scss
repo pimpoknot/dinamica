@@ -2,55 +2,66 @@
   .immobile-highlights{
     display: flex;
     flex-direction: column;
-    height: 800px;
-    
+    height: 550px;
     margin-top: 32px;
 
     h2{
-      margin-top: 16px;
+      // margin-top: 16px;
     }
-
-    .carrousel-cards{
-      width: 550px;
-      height: 350px;
-      border: solid;
-
-      .image-immobile{
-        width: 100%;
-        height: 100%;
-      }
-      
-
-      .card-text-content{
-        height: 70px;
-        flex-direction: row;
-
-        .lancamento-container{
-          height: 25px;
-          width: 120px;
-          margin: 0;
-        }
-        
-        h3{
-          font-size: 12px;
-          margin: 0;
-        }
-
-        p{
-          font-size: 10px;
-          margin: 0;
-        }
-      }
-
-      .immobiles-details{
-        height: 70px;
-        
-      }
-    }
-
     .carrousel-highlights{
       width: 100%;
       height: 100%;
+      border: solid;
+
+      .carrousel-cards{
+        width: 563px;
+        
+        // border: solid;
+  
+        .about-more{
+          display: none;
+        }
+  
+        .image-immobile{
+          width: 100%;
+          height: 100%;
+        }
+        
+  
+        .card-text-content{
+          height: 70px;
+          flex-direction: row;
+
+          .immobile-apresentation{
+            display: flex;
+            align-items: center;
+            justify-self: center;
+            flex-direction: column;
+            
+          }
+  
+          .lancamento-container{
+            height: 25px;
+            width: 120px;
+            margin: 0;
+          }
+          
+          h3{
+            font-size: 12px;
+            margin: 0;
+          }
+  
+          p{
+            font-size: 10px;
+            margin: 0;
+          }
+        }
+  
+        .immobiles-details{
+          height: 70px;
+          
+        }
+      }
     }
 
     

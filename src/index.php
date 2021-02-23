@@ -73,12 +73,18 @@
           <div class="carrousel-highlights">
             <div class="carrousel-cards">
               <div class="image-immobile">
-                <img src="/public/img/5f8607c66bda2-fly-piscina-alta-resolucao-r01-bx.png" alt="">
+                <picture>
+                  <source media="(max-width:670px)" srcset="/public/img/5f8607c66bda2-fly-piscina-alta-resolucao-r01-bx.png" sizes="small">
+                  <source media="(min-width: 670px )" srcset="/public/img/residente-desktop.png" sizes="">
+                  <img src="/public/img/residente-desktop.png" alt="residence" style="width: auto;">
+                </picture>
                 <div class="about-more"><a href="#" class="text-decoration-n uppercase">saiba mais</a></div>
               </div>
               <div class="card-text-content">
-                <h3 class="uppercase fs-16">Fly Reidence</h3>
-                <p>Estar perto para chegar mais longe</p>
+                <div class="immobile-apresentation">
+                  <h3 class="uppercase fs-16">Fly Reidence</h3>
+                  <p>Estar perto para chegar mais longe</p>
+                </div>
                 <div class="mt8 lancamento-container"><p>LANÇAMENTO</p></div>
                 <p class="mt8 fw-100 color-b">Bauru - São Paulo</p>
                 <p class="fw-100 fs-16 color-b"><i class=" mt8 fas fa-map-marker-alt"></i>Jardim Infante Dom Henrique</p>
