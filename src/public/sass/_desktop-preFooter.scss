@@ -48,28 +48,42 @@
     }
 
     .pre-footer-social-media{
+      display: flex;
+      flex-direction: column;
       height: 250px;
       width: 50%;
       background-color: #2B2B2B;
       background-image: url('/public/img/background-image.svg');
       background-repeat: no-repeat;
-      background-size: 25%;
+      background-size: 28%;
       background-position: right;
 
       .title-social-pre-footer{
         display: flex;
+        flex-direction: column;
         color: white;
-        justify-content: center;
-        align-items: center;
+        justify-content:flex-start;
+        align-items: flex-start;
+        
+        border: solid red;
 
         h2{
           font-weight: bold;
-          font-size: 24px;
+          font-size: 30px;
+          background:  -webkit-linear-gradient(#FDB913, #F37021);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
 
         span{
-          @extend:h2;
+          margin-left: 6px;
+          font-weight: bold;
+          font-size: 30px;
         }
+      }
+
+      .social-media-footer{
+        
       }
     }
   }
